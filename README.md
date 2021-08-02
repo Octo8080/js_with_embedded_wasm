@@ -1,10 +1,10 @@
 # js_with_embedded_wasm
 
-A tool to convert Deno's wasm and js created by ![wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) for deno to js with wasm embedded.
+A tool to convert Deno's wasm and js created by [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) for deno to js with wasm embedded.
 
 ## Usage
 
-Suppose you created wasm and js using ![wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) by following the steps below.
+Suppose you created wasm and js using [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) by following the steps below.
 
 ```sh 
 $ cargo build --lib --release --target wasm32-unknown-unknown
