@@ -13,7 +13,7 @@ $ ls ./pkg
 sample.d.ts  sample.js  sample_bg.wasm  sample_bg.wasm.d.ts
 ```
 
-Use the following command to perform the conversion.
+Use the following command to perform the conversion.  
 Please redirect the result.
 
 ```sh
