@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+    privileged: true
+    entrypoint:
+      - /sbin/init
+    volumes:
+      - .:/usr/src/app:cached
+    tty: true
